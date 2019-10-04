@@ -2,27 +2,19 @@
 # Period: 4
 # Dice Rolling Simulator
 import random
-selected = random.randint(1,6)
 randomNum = random.randint(1,6)
 x = int(input("How Many Rolls?: "))
-print(selected)
-while True:
-	printScore()
-    print('The dice rolled and you got:')
-    x = randomNum
-    break
-if x < 0:
-        x = 0
-        print('Negative changed to zero')
-    elif x == 0:
-          print('Zero')
-    elif x == 1:
-        print('Single')
-    else:
-        print('More')
-
+print("The dice rolled and you got: ", print(randomNum == x))
 
 def printScore():
-	print("The Score is: ", rolled_num)
+	print("The Score is: ")
+	count = random.count([1])
+	count = random.count([2])
+	count = random.count([3])
+	count = random.count([4])
+	count = random.count([5])
+	count = random.count([6])
+	
+
 
 
